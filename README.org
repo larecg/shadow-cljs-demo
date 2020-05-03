@@ -1,2 +1,32 @@
 * shadow-cjs-template
 A simple template for my shadow-cljs experiments
+
+** How to setup
+
+ Install globally the shadow-cljs tool
+
+#+BEGIN_SRC bash
+ npm install -g shadow-cljs
+#+END_SRC
+
+** How to build for production
+
+#+BEGIN_SRC bash
+ shadow-cljs compile app
+#+END_SRC
+
+** How to develop the application (watch mode)
+
+#+BEGIN_SRC bash
+ shadow-cljs watch app
+#+END_SRC
+
+** How to develop the application (using Emacs)
+
+ Use CIDER and jack-in using: `cyder-jack-in-cljs` -> `shadow` -> `:app`
+
+* References
+
+** [[https://youtu.be/BZNJi5pP8fU][Youtube Video]]
+** [[https://github.com/clojure-emacs/cider][CIDER]]
+** [[https://github.com/thheller/shadow-cljs][Shadow CLJS]]
